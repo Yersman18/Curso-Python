@@ -1,36 +1,18 @@
-# metodos de cadenas 
-texto1 = "AdsdsA"
-texto = "bienvenidos a nuestros equipo de trabajo"
+lista = list(["hola", "python", "html", "react"])
 
-mayus = texto.upper()
+agregar_valor = lista.append("js")
 
-minus = texto.lower()
+agregar_valor_valores = lista.extend(["2", "centro"])
 
-primayu = texto.capitalize()
+agregando_valor = lista.insert(4, "java")
 
-#buscar = texto.find("python")
+borrar_valor = lista.pop(2)
 
-#buscar = texto.index("python")
+borrar_Por_valor = lista.remove("java")
 
-buscar_ultimos = texto.endswith("0")
+# borrar_todo = lista.clear()
 
-buscar_primero = texto.startswith("b")
-
-replace = texto.replace(" ", "-")
-
-alfanumerico = texto1.isalpha()
-
-numerico = texto.isnumeric()
-
-contar = texto.count("a")
-
-longitud = len(texto)
-
-convertirlista = texto.split("")
-
-print(convertirlista)
+orden_ascendente = lista.sort()
 
 
-
-
-
+print(lista)
