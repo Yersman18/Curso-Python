@@ -2,7 +2,7 @@ lista = { "Hola", "amigos", "mido", 1.68 }
 
 contar = len(lista)
 
-extendd = lista.extend()
+lista.extend(["python", 4])
 
 
-print(contar)
+print(lista)
