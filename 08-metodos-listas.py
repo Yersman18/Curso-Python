@@ -19,5 +19,9 @@ ordenar = lista.sort() #   # nos organiza la lista de forma  (ascendente reverse
 revertir = lista.reverse() # asi como esta todos los valores de la lista (asi esten desorganizados) los revierte 
 
 
+
+
 print(lista)
+
+
 
