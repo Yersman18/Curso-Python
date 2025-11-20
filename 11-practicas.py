@@ -58,12 +58,16 @@
 #La fórmula de conversión que se usa para este cálculo es: _Celsius = (5/9) * (Fahrenheit-32)_
  
 
-Fahrenheit = int(input("ingresa una temperatura en escala Fahrenheit: "))
+# Fahrenheit = int(input("ingresa una temperatura en escala Fahrenheit: "))
 
-convertir = Fahrenheit - 32
+# convertir = Fahrenheit - 32
 
-division_fahrenheit = 5 / 9
+# division_fahrenheit = 5 / 9
 
-multiplicacion_celcius = division_fahrenheit * convertir
+# multiplicacion_celcius = division_fahrenheit * convertir
 
-print(f"la conversion de la temperatura en Celcius es de {multiplicacion_celcius:.2f}")
+# print(f"la conversion de la temperatura en Celcius es de {multiplicacion_celcius:.2f}")
+
+tupla = ("estebabn", "Daniel")
+
+print(type(tupla))
