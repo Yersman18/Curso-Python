@@ -23,11 +23,15 @@ while True:
         contraseña = input("Agregue su contraseña: ")
         contraseñas.append(contraseña)
         print("Se registro satisfactoriamente, ya puedes iniciar sesion! \n ")
-    if usuario == 2:
+    elif usuario == 2:
         usuario_nombre = input("Ingrese su nombre con el que se registro: ")
         buscar_nombre = nombres.index(usuario_nombre)
         usuario_contraseña = input("Ingrese su contraseña:")
         buscar_contraseña = contraseñas.index(usuario_contraseña)
+        print("pudiste iniciar sesión!")
+    elif usuario == 3:
+        print("donde nos dice hasta donde llegamos")
+
 
 
 
