@@ -5,8 +5,9 @@
 
 nombres = []
 contraseñas = []
+encontrado = False
 
-
+#0 para poder imprimir la lista de nombres 
 while True:
     print("====MENU PRINCIPAL==== \n" )
     print("1. Registrar usuario ")
@@ -18,19 +19,33 @@ while True:
     usuario = int(input("Eliga una opcion: "))
     if usuario == 1:
         print("Escriba los siguientes datos: \n")
-        nombre = input("Agregue su nombre: ")
-        nombres.append(nombre)
-        contraseña = input("Agregue su contraseña: ")
-        contraseñas.append(contraseña)
-        print("Se registro satisfactoriamente, ya puedes iniciar sesion! \n ")
-    elif usuario == 2:
-        usuario_nombre = input("Ingrese su nombre con el que se registro: ")
-        buscar_nombre = nombres.index(usuario_nombre)
-        usuario_contraseña = input("Ingrese su contraseña:")
-        buscar_contraseña = contraseñas.index(usuario_contraseña)
-        print("pudiste iniciar sesión!")
-    elif usuario == 3:
-        print("donde nos dice hasta donde llegamos")
+        usuario = input("Agregue su nombre:")
+        for nombre in nombres:
+            if usuario != nombre:
+                nombres.append(usuario)
+            else:
+                print("El nombre no es correcto")
+        
+
+            
+
+
+    if usuario == 0:
+        print(nombres)
+    
+        
+
+        
+
+        
+    #     print("Se registro satisfactoriamente, ya puedes iniciar sesion! \n ")
+    # elif usuario == 2:
+    #     usuario_nombre = input("Ingrese su nombre con el que se registro: ")
+    #     buscar_nombre = nombres.index(usuario_nombre)
+    #     usuario_contraseña = input("Ingrese su contraseña:")
+    #     buscar_contraseña = contraseñas.index(usuario_contraseña)
+    #     print("pudiste iniciar sesión!")
+    
 
 
 
