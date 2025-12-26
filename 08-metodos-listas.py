@@ -21,7 +21,7 @@ revertir = lista.reverse() # asi como esta todos los valores de la lista (asi es
 
 
 
-print(lista)
+print(contar)
 
 
 

@@ -94,65 +94,40 @@
 
 # print(resultado)
 
+
+# EJERCICIO 5 
+
 # crea una funcion que reciba una nota de (0-5) y retorne:
 # "Excelente" (>=4)
 # "Aprobado" (>=3)
 # "Reprobado" (<3)
 
+# def notas(nota):
+#     if nota >= 4:
+#         return "Excelente"
+#     elif nota >= 3:
+#         return "Aprobado"
+#     else:
+#         return "Reprobado"
+    
+# num = int(input("Escribe una nota: "))
+# resultado = notas(num)
+
+# print(resultado)
+
+# EJERCICIOS CON LISTAS
+
+# def suma_total (numeros):
 
 
+numeros = []
+numero = 0
 
 
-
-
-
-# 🟢 Ejercicio 1
-
-# Crea una función que reciba un número y retorne si es par o impar.
-
-# 🟢 Ejercicio 2
-
-# Crea una función que reciba dos números y retorne el mayor de ellos.
-
-# 🟢 Ejercicio 3
-
-# Crea una función que reciba un nombre y retorne un saludo personalizado.
-
-# 🟢 Ejercicio 4
-
-# Crea una función que reciba una edad y retorne si es mayor o menor de edad.
-
-# 🟢 Ejercicio 5
-
-# Crea una función que reciba una nota (0 a 5) y retorne:
-
-# “Excelente”
-
-# “Aprobado”
-
-# “Reprobado”
-# (según el valor)
-
-# 🟢 Ejercicio 6
-
-# Crea una función que reciba una lista de números y retorne la suma total.
-
-# 🟢 Ejercicio 7
-
-# Crea una función que reciba una palabra y retorne cuántas letras tiene.
-
-# 🟢 Ejercicio 8
-
-# Crea una función que reciba un número y retorne una lista con los números del 1 hasta ese número.
-
-# 🟢 Ejercicio 9
-
-# Crea una función que reciba un texto y retorne si está vacío o no.
-
-# 🟢 Ejercicio 10
-
-# Crea una función que reciba dos números y una operación (+, -, *, /) y retorne el resultado.
-
-
+for numero in range(3):
+    numero = int(input("ingresa un numero: "))
+    ingresar = numeros.append(numero)
+    suma = sum(numeros)
+print(suma)
 
 
