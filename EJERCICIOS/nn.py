@@ -1,4 +1,6 @@
+nombres = ["Esteban"]
 
-usuario = int(input("Ingresa un numero: "))
-operacion = usuario % 2 
-print(operacion)
+for nombre in nombres:
+    mayus = nombre.upper()
+
+print(mayus)
