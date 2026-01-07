@@ -175,24 +175,23 @@
 #EJERCICIO
 # retorna nombres que empiecen por una letra
 
-nombres = []
+# nombres = []
 
+# def inicial(nombres):
+#     in_nombres = []
+#     for nom in nombres:
+#         initial = nom.find("A")
+#         if initial == 0:
+#             in_nombres.append(nom)
+#     return in_nombres
 
-def inicial(nombres):
-    in_nombres = []
-    for nom in nombres:
-        initial = nom.find("A")
-        if initial == 0:
-            in_nombres.append(nom)
-    return in_nombres
+# for nombre in range(3):
+#     usuario = input("ingresa un nombre: ")
+#     nombres.append(usuario)
 
-for nombre in range(3):
-    usuario = input("ingresa un nombre: ")
-    nombres.append(usuario)
+# resultado = inicial(nombres)
 
-resultado = inicial(nombres)
-
-print(resultado)
+# print(resultado)
 
 
 
