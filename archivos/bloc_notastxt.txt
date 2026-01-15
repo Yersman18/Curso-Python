@@ -1,9 +1,4 @@
-hola amigos estoy practicando 
-hola amigos estoy practicando otra vez 
-esta es una linea
-Esta es otra linea 
-Esta es la 1 linea 
-Esta es la 2 linea 
-Esta es la 3 linea 
-Esta es la 4 linea 
-Esta es la 5 linea 
+Estamos sobreescribiendo el archivo para la practica 
+Estamos sobreescribiendo el archivo para la practica 
+Esto es un una linea
+y esta es otra linea

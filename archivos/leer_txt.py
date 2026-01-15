@@ -15,7 +15,7 @@ linea = archivo.readline() # readline(200) por caracteres
 
 
 #cerrar el archivo
-archivo.close()
+#archivo.close()
 
 
 # despues de cerrarlo ya no podemos hacer uso sobre el archivo
