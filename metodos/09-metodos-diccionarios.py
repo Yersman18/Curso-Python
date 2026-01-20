@@ -1,22 +1,29 @@
-# agregue un comentario y le archivo de metodos de los diccionarios 
-
-diccionario = {
-    "uno": "Hola",
-    "dos":"Mundo",
-    "subs": "1000000"
+# creando un diccionario
+persona = {
+    'nombre': 'Yersman ' 'Esteban',
+    'Edad': 19,
+    'Lugar de residencia': 'Madrid Cundinamarca'
 }
-# nos devulve un objeto dict_item
-print(diccionario.keys())
 
-# obteniendo con el metdod de get() (si no encuentra nada el programa continura)
-print(diccionario.get("uno"))
+#print(persona['nombre']) nos arroga el valor de la clave
 
-#print(diccionario.clear())
+#print(persona.keys()) # nos arrgoa el nombre de las claves
 
-print(diccionario.pop("subs", "dos"))
+#print(persona.get('nombre')) # ponemos la clave y nos arroga el valor que contiene esa clave
 
-diccinario_iterable = diccionario.items()
+eliminando = persona.pop('Edad')
 
-print(diccionario_iterable)
+print(persona.items())
+
+# -------------------------------------DICCIONARIOS 2.0
+# creando diccionarios con dict()
+
+diccionario = dict(nombre="Esteban", apellido = "Garzon")
+
+diccionario_nuevo = dict.fromkeys({'Estatura', 'Peso'}) # Creamos un diccionario vacio
+
+agregando_datos = diccionario_nuevo['Estatura'] = 1.70 # Agregamos un valor al diccinario creado
+
+print(diccionario_nuevo)
 
 

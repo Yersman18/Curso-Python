@@ -1,4 +1,1 @@
-Estamos sobreescribiendo el archivo para la practica 
-Estamos sobreescribiendo el archivo para la practica 
-Esto es un una linea
-y esta es otra linea
+excepciones
