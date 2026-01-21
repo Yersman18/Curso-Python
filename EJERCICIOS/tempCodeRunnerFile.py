@@ -1,2 +1,0 @@
-
-print(lista_numeros)
