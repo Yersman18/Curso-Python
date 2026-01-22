@@ -87,4 +87,10 @@ mostrar_persona(persona)
 
 
 #EJERCICIO 5
-
+# Objetivo: entender que las funciones pueden cambiar diccionarios.
+# Enunciado
+# Crea una función actualizar_edad que:
+# Reciba un diccionario persona
+# Reciba una nueva edad
+# Actualice la edad en el diccionario
+# Retorne el diccionario actualizado
